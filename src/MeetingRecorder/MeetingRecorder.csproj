@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.22621.0</TargetFramework>
+    <!-- Original baseline, not product Windows 7 support; enables the Windows SDK projection. -->
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <UseWPF>true</UseWPF>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <AssemblyName>MeetingRecorder</AssemblyName>
+    <RootNamespace>MeetingRecorder</RootNamespace>
+    <Product>Meeting Recorder for Windows</Product>
+    <!-- Shown as the exe description, e.g. on the pinned taskbar button. -->
+    <AssemblyTitle>Meeting Recorder</AssemblyTitle>
+    <ApplicationIcon>Assets/MeetingRecorder.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <SelfContained>true</SelfContained>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <NoWarn>$(NoWarn);WPF0001</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Assets/MeetingRecorder.ico" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <InternalsVisibleTo Include="MeetingRecorder.Tests" />
+    <EmbeddedResource Include="../../native/win-x64/*.dll" LogicalName="native/%(Filename)%(Extension)" />
+    <EmbeddedResource Include="OpenCodePlugin/gui-experimental.cjs" LogicalName="opencode/gui-experimental.cjs" />
+  </ItemGroup>
+</Project>

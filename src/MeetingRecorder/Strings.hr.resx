@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="DownloadHeading" xml:space="preserve"><value>Preuzimanje hrvatskog govornog modela</value></data>
+  <data name="DownloadDescription" xml:space="preserve"><value>Jednokratno preuzimanje, oko 840 MB. Prijepis zatim radi bez interneta.</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Odustani</value></data>
+  <data name="Retry" xml:space="preserve"><value>Pokušaj ponovno</value></data>
+  <data name="Yes" xml:space="preserve"><value>Da</value></data>
+  <data name="No" xml:space="preserve"><value>Ne</value></data>
+  <data name="MeetingTitle" xml:space="preserve"><value>Naslov sastanka (neobavezno)</value></data>
+  <data name="TitleExample" xml:space="preserve"><value>npr. Prelazak na nove šifre artikala</value></data>
+  <data name="Microphone" xml:space="preserve"><value>Mikrofon</value></data>
+  <data name="SystemAudio" xml:space="preserve"><value>Zvuk sustava</value></data>
+  <data name="NoMicrophone" xml:space="preserve"><value>Mikrofon nije pronađen</value></data>
+  <data name="NoOutputDevice" xml:space="preserve"><value>Izlazni uređaj nije pronađen</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Započni snimanje</value></data>
+  <data name="Pause" xml:space="preserve"><value>Pauziraj</value></data>
+  <data name="Resume" xml:space="preserve"><value>Nastavi</value></data>
+  <data name="Stop" xml:space="preserve"><value>Zaustavi</value></data>
+  <data name="RecordingPowerRequestReason" xml:space="preserve"><value>Snimanje sastanka aplikacijom Meeting Recorder</value></data>
+  <data name="CompactView" xml:space="preserve"><value>Kompaktni prikaz (Ctrl+M)</value></data>
+  <data name="FullWindow" xml:space="preserve"><value>Cijeli prozor (Ctrl+M)</value></data>
+  <data name="RecordingControls" xml:space="preserve"><value>Kontrole snimanja</value></data>
+  <data name="Mixing" xml:space="preserve"><value>Miješanje zvuka</value></data>
+  <data name="Transcribing" xml:space="preserve"><value>Izrada prijepisa</value></data>
+  <data name="Saving" xml:space="preserve"><value>Spremanje snimke</value></data>
+  <data name="NewRecording" xml:space="preserve"><value>Nova snimka</value></data>
+  <data name="ContinuePrevious" xml:space="preserve"><value>Nastavi prethodni sastanak…</value></data>
+  <data name="StartNewMeeting" xml:space="preserve"><value>Započni novi sastanak</value></data>
+  <data name="BrowseMeeting" xml:space="preserve"><value>Pregledaj…</value></data>
+  <data name="ContinueSelectionError" xml:space="preserve"><value>Nije moguće nastaviti ovaj sastanak. Odaberite mapu sastanka koju je moguće čitati i u koju je moguće pisati.</value></data>
+  <data name="ContinuationSavedSeparately" xml:space="preserve"><value>Mapa prethodnog sastanka više nije dostupna. Ova je snimka spremljena kao novi sastanak.</value></data>
+  <data name="SeriesRecordFailed" xml:space="preserve"><value>Snimka je spremljena, ali zapis svih sastanaka nije ažuriran: {0} Ponovno se izrađuje nakon sljedećeg dovršenog sastanka.</value></data>
+  <data name="TranscriptReady" xml:space="preserve"><value>Prijepis je spreman</value></data>
+  <data name="OpenTranscript" xml:space="preserve"><value>Otvori prijepis</value></data>
+  <data name="OpenFolder" xml:space="preserve"><value>Otvori mapu</value></data>
+  <data name="OpenMeetings" xml:space="preserve"><value>Otvori mapu Meetings</value></data>
+  <data name="Attribution" xml:space="preserve"><value>Govorni model: Diktafon HR 1 autora infomiho (CC BY 4.0), temeljen na NVIDIA Canary 1B v2</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>Meeting Recorder već je pokrenut za ovu mapu podataka aplikacije. Prijeđite na postojeći prozor.</value></data>
+  <data name="UnexpectedError" xml:space="preserve"><value>Došlo je do neočekivane pogreške. Sve nedovršene snimke sačuvane su za oporavak.</value></data>
+  <data name="FatalError" xml:space="preserve"><value>Došlo je do kritične pogreške u aplikaciji Meeting Recorder. Sve nedovršene snimke sačuvane su za oporavak.</value></data>
+  <data name="ErrorDetails" xml:space="preserve"><value>{0}
+{1}
+
+Dnevnik: {2}</value></data>
+  <data name="StartupError" xml:space="preserve"><value>Meeting Recorder nije moguće pokrenuti.</value></data>
+  <data name="StartError" xml:space="preserve"><value>Nije moguće započeti snimanje.</value></data>
+  <data name="PauseError" xml:space="preserve"><value>Nije moguće promijeniti stanje pauze snimanja.</value></data>
+  <data name="StopError" xml:space="preserve"><value>Nije moguće zaustaviti snimanje. Snimanje je još aktivno; ponovno odaberite Zaustavi.</value></data>
+  <data name="Started" xml:space="preserve"><value>Početak: {0:HH:mm · d. MMM yyyy.}</value></data>
+  <data name="RecoveryFound" xml:space="preserve"><value>Pronađena je neobrađena snimka: {0:d. MMM yyyy. HH:mm} ({1:0} min)</value></data>
+  <data name="FailedEarlier" xml:space="preserve"><value>Prethodna obrada nije uspjela</value></data>
+  <data name="ProcessNow" xml:space="preserve"><value>Obradi sada</value></data>
+  <data name="Later" xml:space="preserve"><value>Kasnije</value></data>
+  <data name="Discard" xml:space="preserve"><value>Odbaci</value></data>
+  <data name="ConfirmDiscard" xml:space="preserve"><value>Trajno izbrisati ovu snimku?</value></data>
+  <data name="RecoveryError" xml:space="preserve"><value>Nije moguće izvršiti radnju nad ovom snimkom.</value></data>
+  <data name="OpenError" xml:space="preserve"><value>Nije moguće otvoriti {0}</value></data>
+  <data name="OpenMeetingsError" xml:space="preserve"><value>Nije moguće otvoriti mapu Meetings.</value></data>
+  <data name="ConfirmStop" xml:space="preserve"><value>Zaustaviti snimanje i obraditi snimku?</value></data>
+  <data name="ConfirmProcessingClose" xml:space="preserve"><value>Obrada nije dovršena. Snimka je sačuvana i bit će ponuđena pri sljedećem pokretanju. Ipak zatvoriti?</value></data>
+  <data name="Stopping" xml:space="preserve"><value>Zaustavljanje… Čeka se dovršetak trenutačne radnje i čišćenja. Izrada prijepisa ne može se zaustaviti dok se trenutačni nativni poziv ne dovrši.</value></data>
+  <data name="PositionError" xml:space="preserve"><value>Nije moguće spremiti položaj kompaktnog prozora.</value></data>
+  <data name="Connecting" xml:space="preserve"><value>Povezivanje…</value></data>
+  <data name="DownloadProgress" xml:space="preserve"><value>{0:0} / {1:0} MB</value></data>
+  <data name="DownloadCancelled" xml:space="preserve"><value>Preuzimanje je otkazano. Snimanje je i dalje dostupno; izrada prijepisa čeka govorni model.</value></data>
+  <data name="DownloadFailed" xml:space="preserve"><value>Preuzimanje nije uspjelo: {0}
+Dnevnik: {1}</value></data>
+  <data name="ProcessingRecording" xml:space="preserve"><value>Obrada snimke</value></data>
+  <data name="LoadingModel" xml:space="preserve"><value>Učitavanje govornog modela…</value></data>
+  <data name="WaitingModel" xml:space="preserve"><value>Čekanje govornog modela…</value></data>
+  <data name="RecordingFinished" xml:space="preserve"><value>✓ Snimanje je završeno ({0:0} min)</value></data>
+  <data name="TranscribingProgress" xml:space="preserve"><value>◌ Izrada prijepisa… {0:P0}</value></data>
+  <data name="TimeLeft" xml:space="preserve"><value>Preostalo je oko {0} min. </value></data>
+  <data name="MinimizeHint" xml:space="preserve"><value>Prozor možete minimizirati – obrada se nastavlja.</value></data>
+  <data name="OutputFiles" xml:space="preserve"><value>{0}
+recording-transcript.txt
+Komprimirana snimka</value></data>
+  <data name="ProcessingFailed" xml:space="preserve"><value>Obrada nije uspjela: {0}
+Snimka je sačuvana.
+Dnevnik: {1}</value></data>
+  <data name="Notes" xml:space="preserve"><value>Bilješke</value></data>
+  <data name="NotesHeading" xml:space="preserve"><value>Bilješke sa sastanka</value></data>
+  <data name="NotesHint" xml:space="preserve"><value>Enter započinje novu stavku; Shift+Enter dodaje novi redak u istoj stavci. Svaka stavka dobiva vrijeme snimanja svog prvog unosa.</value></data>
+  <data name="NotesSaveFailed" xml:space="preserve"><value>Spremanje bilješki nije uspjelo: {0} Tekst je zadržan i spremanje će se ponovno pokušati.</value></data>
+  <data name="NotesReadFailed" xml:space="preserve"><value>Čitanje spremljenih bilješki nije uspjelo: {0}</value></data>
+  <data name="NoteRow" xml:space="preserve"><value>Bilješka {0}</value></data>
+  <data name="InstallPromptMessage" xml:space="preserve"><value>Meeting Recorder pokrenut je s prijenosnog ili mrežnog mjesta. Instalirati trajnu kopiju na ovo računalo? Instalacija će također stvoriti prečac na radnoj površini.</value></data>
+  <data name="InstallDontAsk" xml:space="preserve"><value>Ne pitaj više</value></data>
+  <data name="Install" xml:space="preserve"><value>Instaliraj</value></data>
+  <data name="NotNow" xml:space="preserve"><value>Ne sada</value></data>
+  <data name="PinPromptMessage" xml:space="preserve"><value>Prikvačiti Meeting Recorder na programsku traku?</value></data>
+  <data name="PinToTaskbar" xml:space="preserve"><value>Prikvači na programsku traku</value></data>
+  <data name="InstallCopyFailed" xml:space="preserve"><value>Kopiranje Meeting Recordera u lokalnu mapu aplikacije nije uspjelo. Ova kopija nastavlja raditi.</value></data>
+  <data name="DesktopShortcutFailed" xml:space="preserve"><value>Prečac na radnoj površini nije moguće stvoriti. Instalirana kopija ostaje dostupna.</value></data>
+  <data name="StartShortcutFailed" xml:space="preserve"><value>Prečac na izborniku Start nije moguće stvoriti.</value></data>
+  <data name="InstallLaunchFailed" xml:space="preserve"><value>Instaliranu kopiju nije moguće pokrenuti. Ova kopija nastavlja raditi.</value></data>
+  <data name="InstallPreferenceSaveFailed" xml:space="preserve"><value>Postavku instalacije nije moguće spremiti.</value></data>
+  <data name="HandoffInvalidArgs" xml:space="preserve"><value>Neispravni argumenti prijenosa instalacije.</value></data>
+  <data name="HandoffSourceWaitFailed" xml:space="preserve"><value>Izvorna kopija još nije završila. Nastavlja se s ovom kopijom.</value></data>
+  <data name="ContinueInOpenCode" xml:space="preserve"><value>Nastavi u OpenCodeu</value></data>
+  <data name="OpenCodeConsent" xml:space="preserve"><value>Meeting Recorder će dodati jedan lokalni unos dodatka u OpenCodeovu globalnu konfiguraciju (opencode.json ili opencode.jsonc u mapi {0}). Datoteke dodatka nalaze se u {1}.
+
+Dodatak samo otvara razgovor o ovom sastanku u aplikaciji OpenCode Desktop. Nikada ne šalje upite i nikada ne poziva model.
+
+Da biste ga kasnije uklonili, u datoteci konfiguracije obrišite taj unos dodatka (onaj koji pokazuje na {1}). Nastaviti?</value></data>
+  <data name="OpenCodePreparing" xml:space="preserve"><value>Priprema razgovora…</value></data>
+  <data name="OpenCodeInstalling" xml:space="preserve"><value>Instaliranje aplikacije OpenCode Desktop. To može potrajati nekoliko minuta…</value></data>
+  <data name="OpenCodeSetup" xml:space="preserve"><value>Postavljanje dodatka za sastanke…</value></data>
+  <data name="OpenCodeStarting" xml:space="preserve"><value>Pokretanje aplikacije OpenCode Desktop…</value></data>
+  <data name="OpenCodeWaiting" xml:space="preserve"><value>Čekanje na OpenCode. Prvo pokretanje može trajati do otprilike dvije minute…</value></data>
+  <data name="OpenCodeOpening" xml:space="preserve"><value>Otvaranje razgovora o sastanku…</value></data>
+  <data name="OpenCodeOpened" xml:space="preserve"><value>Otvoreno u OpenCodeu.</value></data>
+  <data name="OpenCodeOpenedAfterCancel" xml:space="preserve"><value>Otvoreno je u OpenCodeu nakon što ste otkazali.</value></data>
+  <data name="OpenCodeCancelled" xml:space="preserve"><value>Otkazano. OpenCode može i dalje otvoriti razgovor ako je već počeo s otvaranjem.</value></data>
+  <data name="OpenCodeBusy" xml:space="preserve"><value>OpenCode već otvara razgovor.</value></data>
+  <data name="OpenCodeSuppressed" xml:space="preserve"><value>Prijenos u OpenCode isključen je u ovom testnom načinu rada. Mapu serije otvorite ručno.</value></data>
+  <data name="OpenCodeManualUpdate" xml:space="preserve"><value>OpenCode Desktop treba ručno ažurirati na verziju {0} ili noviju.</value></data>
+  <data name="OpenCodeDeclined" xml:space="preserve"><value>Dodatak za OpenCode nije dodan.</value></data>
+  <data name="OpenCodeFailed" xml:space="preserve"><value>Nastavak u OpenCodeu nije uspio automatski.</value></data>
+  <data name="OpenCodeCode" xml:space="preserve"><value> (šifra za dijagnostiku: {0})</value></data>
+  <data name="OpenCodeManual" xml:space="preserve"><value>Otvorite OpenCode Desktop, otvorite mapu serije {0} i zatim odaberite ili započnite razgovor pod nazivom „{1}”.</value></data>
+  <data name="OpenCodeSessionHint" xml:space="preserve"><value>Razgovor se može pronaći i prema ID-u: {0}.</value></data>
+  <data name="OpenCodeBackupKept" xml:space="preserve"><value>Izvorna OpenCode konfiguracija sačuvana je ovdje: {0}</value></data>
+  <data name="OpenCodePartialInstall" xml:space="preserve"><value>OpenCode je možda samo djelomično instaliran; možda ga je potrebno ručno ponovno instalirati.</value></data>
+</root>

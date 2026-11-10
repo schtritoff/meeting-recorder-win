@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Meeting Recorder</title>
+  <desc>Original silver microphone on a curved graphite stand with a prominent red recording badge. Transparent background.</desc>
+  <defs>
+    <linearGradient id="metal" x1="150" y1="70" x2="305" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5F7FA"/>
+      <stop offset="0.42" stop-color="#D5DCE4"/>
+      <stop offset="1" stop-color="#8895A5"/>
+    </linearGradient>
+    <linearGradient id="graphite" x1="120" y1="200" x2="310" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#667383"/>
+      <stop offset="1" stop-color="#29333F"/>
+    </linearGradient>
+    <linearGradient id="record" x1="325" y1="290" x2="414" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF545F"/>
+      <stop offset="0.55" stop-color="#EF263B"/>
+      <stop offset="1" stop-color="#C9102A"/>
+    </linearGradient>
+  </defs>
+  <path d="M 214,350 L 242,350 L 242,422 L 284,422 C 302,422 314,434 314,449 L 142,449 C 142,434 154,422 172,422 L 214,422 Z" fill="url(#graphite)" stroke="#25303D" stroke-width="4"/>
+  <path d="M 105,201 C 105,193 111,187 119,187 C 127,187 133,193 133,201 L 133,245 C 133,298 175,340 228,340 C 281,340 323,298 323,245 L 323,201 C 323,193 329,187 337,187 C 345,187 351,193 351,201 L 351,245 C 351,313 296,368 228,368 C 160,368 105,313 105,245 Z" fill="url(#graphite)" stroke="#25303D" stroke-width="4"/>
+  <path d="M 228,43 C 271,43 306,78 306,121 L 306,222 C 306,265 271,300 228,300 C 185,300 150,265 150,222 L 150,121 C 150,78 185,43 228,43 Z" fill="url(#metal)" stroke="#34404F" stroke-width="6"/>
+  <path d="M 173,155 L 173,119 C 173,89 198,65 228,65" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 195,124 L 261,124 M 195,158 L 261,158 M 195,192 L 261,192" fill="none" stroke="#5D6B7B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 177,437 L 277,437" fill="none" stroke="#8793A1" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 457,352 A 87,87 0 1 1 283,352 A 87,87 0 1 1 457,352 Z" fill="#25303D"/>
+  <path d="M 451,352 A 81,81 0 1 1 289,352 A 81,81 0 1 1 451,352 Z" fill="#EDF1F5"/>
+  <path d="M 438,352 A 68,68 0 1 1 302,352 A 68,68 0 1 1 438,352 Z" fill="url(#record)"/>
+</svg>

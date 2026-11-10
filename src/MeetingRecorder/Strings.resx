@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="DownloadHeading" xml:space="preserve"><value>Downloading the Croatian speech model</value></data>
+  <data name="DownloadDescription" xml:space="preserve"><value>One time, ~840 MB. Transcription then works offline.</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Retry" xml:space="preserve"><value>Retry</value></data>
+  <data name="Yes" xml:space="preserve"><value>Yes</value></data>
+  <data name="No" xml:space="preserve"><value>No</value></data>
+  <data name="MeetingTitle" xml:space="preserve"><value>Meeting title (optional)</value></data>
+  <data name="TitleExample" xml:space="preserve"><value>e.g. Switching to new item codes</value></data>
+  <data name="Microphone" xml:space="preserve"><value>Microphone</value></data>
+  <data name="SystemAudio" xml:space="preserve"><value>System audio</value></data>
+  <data name="NoMicrophone" xml:space="preserve"><value>No microphone found</value></data>
+  <data name="NoOutputDevice" xml:space="preserve"><value>No output device found</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Start recording</value></data>
+  <data name="Pause" xml:space="preserve"><value>Pause</value></data>
+  <data name="Resume" xml:space="preserve"><value>Resume</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="RecordingPowerRequestReason" xml:space="preserve"><value>Meeting Recorder is recording a meeting</value></data>
+  <data name="CompactView" xml:space="preserve"><value>Compact view (Ctrl+M)</value></data>
+  <data name="FullWindow" xml:space="preserve"><value>Full window (Ctrl+M)</value></data>
+  <data name="RecordingControls" xml:space="preserve"><value>Recording controls</value></data>
+  <data name="Mixing" xml:space="preserve"><value>Mixing audio</value></data>
+  <data name="Transcribing" xml:space="preserve"><value>Transcribing</value></data>
+  <data name="Saving" xml:space="preserve"><value>Saving recording</value></data>
+  <data name="NewRecording" xml:space="preserve"><value>New recording</value></data>
+  <data name="ContinuePrevious" xml:space="preserve"><value>Continue previous…</value></data>
+  <data name="StartNewMeeting" xml:space="preserve"><value>Start new meeting</value></data>
+  <data name="BrowseMeeting" xml:space="preserve"><value>Browse…</value></data>
+  <data name="ContinueSelectionError" xml:space="preserve"><value>Could not continue this meeting. Choose a readable, writable meeting folder.</value></data>
+  <data name="ContinuationSavedSeparately" xml:space="preserve"><value>The previous meeting folder is no longer available. This recording was saved as a new meeting.</value></data>
+  <data name="SeriesRecordFailed" xml:space="preserve"><value>The recording is saved, but the all-meetings record could not be updated: {0} It is rebuilt after the next completed meeting.</value></data>
+  <data name="TranscriptReady" xml:space="preserve"><value>Transcript is ready</value></data>
+  <data name="OpenTranscript" xml:space="preserve"><value>Open transcript</value></data>
+  <data name="OpenFolder" xml:space="preserve"><value>Open folder</value></data>
+  <data name="OpenMeetings" xml:space="preserve"><value>Open Meetings folder</value></data>
+  <data name="Attribution" xml:space="preserve"><value>Speech model: Diktafon HR 1 by infomiho (CC BY 4.0), based on NVIDIA Canary 1B v2</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>Meeting Recorder is already running for this application-data folder. Switch to its existing window.</value></data>
+  <data name="UnexpectedError" xml:space="preserve"><value>An unexpected error occurred. Any unfinished recording is kept for recovery.</value></data>
+  <data name="FatalError" xml:space="preserve"><value>Meeting Recorder encountered a fatal error. Any unfinished recording is kept for recovery.</value></data>
+  <data name="ErrorDetails" xml:space="preserve"><value>{0}
+{1}
+
+Log: {2}</value></data>
+  <data name="StartupError" xml:space="preserve"><value>Meeting Recorder could not start.</value></data>
+  <data name="StartError" xml:space="preserve"><value>Could not start recording.</value></data>
+  <data name="PauseError" xml:space="preserve"><value>Could not change recording pause state.</value></data>
+  <data name="StopError" xml:space="preserve"><value>Could not stop recording. Recording is still active; try Stop again.</value></data>
+  <data name="Started" xml:space="preserve"><value>Started {0:HH:mm · d MMM yyyy}</value></data>
+  <data name="RecoveryFound" xml:space="preserve"><value>Unprocessed recording found: {0:d MMM yyyy HH:mm} ({1:0} min)</value></data>
+  <data name="FailedEarlier" xml:space="preserve"><value>Processing failed earlier</value></data>
+  <data name="ProcessNow" xml:space="preserve"><value>Process now</value></data>
+  <data name="Later" xml:space="preserve"><value>Later</value></data>
+  <data name="Discard" xml:space="preserve"><value>Discard</value></data>
+  <data name="ConfirmDiscard" xml:space="preserve"><value>Delete this recording permanently?</value></data>
+  <data name="RecoveryError" xml:space="preserve"><value>Could not handle this recording.</value></data>
+  <data name="OpenError" xml:space="preserve"><value>Could not open {0}</value></data>
+  <data name="OpenMeetingsError" xml:space="preserve"><value>Could not open the Meetings folder.</value></data>
+  <data name="ConfirmStop" xml:space="preserve"><value>Stop recording and process?</value></data>
+  <data name="ConfirmProcessingClose" xml:space="preserve"><value>Processing is not finished. The recording is kept and will be offered next time. Close anyway?</value></data>
+  <data name="Stopping" xml:space="preserve"><value>Stopping… Waiting for the current operation and cleanup to finish. Native transcription cannot stop until the current call returns.</value></data>
+  <data name="PositionError" xml:space="preserve"><value>Could not save the compact window position.</value></data>
+  <data name="Connecting" xml:space="preserve"><value>Connecting…</value></data>
+  <data name="DownloadProgress" xml:space="preserve"><value>{0:0} / {1:0} MB</value></data>
+  <data name="DownloadCancelled" xml:space="preserve"><value>Download cancelled. Recording is still available; transcription waits for the speech model.</value></data>
+  <data name="DownloadFailed" xml:space="preserve"><value>Download failed: {0}
+Log: {1}</value></data>
+  <data name="ProcessingRecording" xml:space="preserve"><value>Processing recording</value></data>
+  <data name="LoadingModel" xml:space="preserve"><value>Loading the speech model…</value></data>
+  <data name="WaitingModel" xml:space="preserve"><value>Waiting for the speech model…</value></data>
+  <data name="RecordingFinished" xml:space="preserve"><value>✓ Recording finished ({0:0} min)</value></data>
+  <data name="TranscribingProgress" xml:space="preserve"><value>◌ Transcribing… {0:P0}</value></data>
+  <data name="TimeLeft" xml:space="preserve"><value>About {0} min left. </value></data>
+  <data name="MinimizeHint" xml:space="preserve"><value>You can minimize the window – processing continues.</value></data>
+  <data name="OutputFiles" xml:space="preserve"><value>{0}
+recording-transcript.txt
+Compressed recording</value></data>
+  <data name="ProcessingFailed" xml:space="preserve"><value>Processing failed: {0}
+The recording is kept.
+Log: {1}</value></data>
+  <data name="Notes" xml:space="preserve"><value>Notes</value></data>
+  <data name="NotesHeading" xml:space="preserve"><value>Meeting notes</value></data>
+  <data name="NotesHint" xml:space="preserve"><value>Enter starts a new bullet; Shift+Enter adds a new line in the same bullet. Each bullet is stamped with the recording time of its first keystroke.</value></data>
+  <data name="NotesSaveFailed" xml:space="preserve"><value>Could not save notes: {0} The text is kept and saving will be retried.</value></data>
+  <data name="NotesReadFailed" xml:space="preserve"><value>Could not read the saved notes: {0}</value></data>
+  <data name="NoteRow" xml:space="preserve"><value>Note {0}</value></data>
+  <data name="InstallPromptMessage" xml:space="preserve"><value>Meeting Recorder is running from a removable or network location. Install a permanent copy on this computer? Installing will also create a Desktop shortcut.</value></data>
+  <data name="InstallDontAsk" xml:space="preserve"><value>Don't ask again</value></data>
+  <data name="Install" xml:space="preserve"><value>Install</value></data>
+  <data name="NotNow" xml:space="preserve"><value>Not now</value></data>
+  <data name="PinPromptMessage" xml:space="preserve"><value>Pin Meeting Recorder to the taskbar?</value></data>
+  <data name="PinToTaskbar" xml:space="preserve"><value>Pin to taskbar</value></data>
+  <data name="InstallCopyFailed" xml:space="preserve"><value>Could not copy Meeting Recorder to the local application folder. This copy keeps running.</value></data>
+  <data name="DesktopShortcutFailed" xml:space="preserve"><value>Could not create the Desktop shortcut. The installed copy is still available.</value></data>
+  <data name="StartShortcutFailed" xml:space="preserve"><value>Could not create the Start menu shortcut.</value></data>
+  <data name="InstallLaunchFailed" xml:space="preserve"><value>Could not start the installed copy. This copy keeps running.</value></data>
+  <data name="InstallPreferenceSaveFailed" xml:space="preserve"><value>Could not save the install preference.</value></data>
+  <data name="HandoffInvalidArgs" xml:space="preserve"><value>Invalid install handoff arguments.</value></data>
+  <data name="HandoffSourceWaitFailed" xml:space="preserve"><value>The source copy has not exited yet. Continuing with this copy.</value></data>
+  <data name="ContinueInOpenCode" xml:space="preserve"><value>Continue in OpenCode</value></data>
+  <data name="OpenCodeConsent" xml:space="preserve"><value>Meeting Recorder will add one local plugin entry to OpenCode's global config (opencode.json or opencode.jsonc in {0}). The plugin files are in {1}.
+
+The plugin only opens this meeting's conversation in OpenCode Desktop. It never sends prompts and never calls a model.
+
+To remove it later, delete that plugin entry (the one pointing to {1}) from the config file. Continue?</value></data>
+  <data name="OpenCodePreparing" xml:space="preserve"><value>Preparing the conversation…</value></data>
+  <data name="OpenCodeInstalling" xml:space="preserve"><value>Installing OpenCode Desktop. This can take a few minutes…</value></data>
+  <data name="OpenCodeSetup" xml:space="preserve"><value>Setting up the meeting plugin…</value></data>
+  <data name="OpenCodeStarting" xml:space="preserve"><value>Starting OpenCode Desktop…</value></data>
+  <data name="OpenCodeWaiting" xml:space="preserve"><value>Waiting for OpenCode. The first start can take up to about two minutes…</value></data>
+  <data name="OpenCodeOpening" xml:space="preserve"><value>Opening the meeting conversation…</value></data>
+  <data name="OpenCodeOpened" xml:space="preserve"><value>Opened in OpenCode.</value></data>
+  <data name="OpenCodeOpenedAfterCancel" xml:space="preserve"><value>It opened in OpenCode after you cancelled.</value></data>
+  <data name="OpenCodeCancelled" xml:space="preserve"><value>Cancelled. OpenCode may still open the conversation if it had already started opening it.</value></data>
+  <data name="OpenCodeBusy" xml:space="preserve"><value>OpenCode is already opening a conversation.</value></data>
+  <data name="OpenCodeSuppressed" xml:space="preserve"><value>OpenCode handoff is disabled in this test mode. Open the series folder manually.</value></data>
+  <data name="OpenCodeManualUpdate" xml:space="preserve"><value>OpenCode Desktop must be updated to {0} or later manually.</value></data>
+  <data name="OpenCodeDeclined" xml:space="preserve"><value>The OpenCode plugin was not added.</value></data>
+  <data name="OpenCodeFailed" xml:space="preserve"><value>Could not continue in OpenCode automatically.</value></data>
+  <data name="OpenCodeCode" xml:space="preserve"><value> (diagnostic code: {0})</value></data>
+  <data name="OpenCodeManual" xml:space="preserve"><value>Open OpenCode Desktop, open the series folder {0}, then select or start the conversation titled "{1}".</value></data>
+  <data name="OpenCodeSessionHint" xml:space="preserve"><value>The conversation can also be found by its ID: {0}.</value></data>
+  <data name="OpenCodeBackupKept" xml:space="preserve"><value>The original OpenCode config was kept at: {0}</value></data>
+  <data name="OpenCodePartialInstall" xml:space="preserve"><value>OpenCode may be only partly installed; reinstalling it manually may be needed.</value></data>
+</root>

@@ -1,0 +1,10 @@
+bin/
+obj/
+publish/
+package/
+*.zip
+SHA256SUMS.txt
+.vs/
+*.user
+*.gguf
+.env

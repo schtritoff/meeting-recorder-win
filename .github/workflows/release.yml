@@ -1,0 +1,66 @@
+name: Windows release
+
+on:
+  push:
+    tags: ['v*.*.*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Publish Windows x64
+        shell: pwsh
+        run: |
+          $version = $env:GITHUB_REF_NAME -replace '^v', ''
+          if ($version -notmatch '^\d+\.\d+\.\d+$') { throw 'Expected a vMAJOR.MINOR.PATCH tag.' }
+          dotnet publish src/MeetingRecorder -c Release -o publish -p:Version=$version -p:DebugType=None -p:DebugSymbols=false -p:ContinuousIntegrationBuild=true
+          if ($LASTEXITCODE -ne 0) { throw 'Publish failed.' }
+      - name: Package application and license notices
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Path package/licenses/dotnet -Force | Out-Null
+          Copy-Item publish/MeetingRecorder.exe package/
+          Copy-Item LICENSE, THIRD-PARTY-NOTICES.md, README.md, README.en.md package/
+          Copy-Item assets package/assets -Recurse
+          Copy-Item licenses/NAudio-LICENSE.txt package/licenses/
+          Copy-Item native/win-x64/licenses package/licenses/native -Recurse
+          $assets = Get-Content src/MeetingRecorder/obj/project.assets.json -Raw | ConvertFrom-Json
+          $cache = ($assets.packageFolders.PSObject.Properties | Select-Object -First 1).Name
+          $dependencies = $assets.project.frameworks.PSObject.Properties.Value.downloadDependencies
+          foreach ($name in 'Microsoft.NETCore.App.Runtime.win-x64', 'Microsoft.WindowsDesktop.App.Runtime.win-x64') {
+            $dependency = @($dependencies | Where-Object name -eq $name)[0]
+            if (!$dependency) { throw "Runtime pack missing: $name" }
+            $version = ($dependency.version.Trim('[', ']') -split ',')[0].Trim()
+            $pack = Join-Path $cache "$($name.ToLowerInvariant())/$version"
+            $notices = @(Get-ChildItem $pack -File | Where-Object Name -Match '^(LICENSE(\.TXT)?|THIRD-PARTY-NOTICES\.TXT)$')
+            if (!$notices.Count) { throw "Runtime license missing: $name" }
+            $destination = "package/licenses/dotnet/$name"
+            New-Item -ItemType Directory -Path $destination -Force | Out-Null
+            $notices | Copy-Item -Destination $destination
+          }
+          Compress-Archive -Path package/* -DestinationPath MeetingRecorder-win-x64.zip
+          $hash = (Get-FileHash MeetingRecorder-win-x64.zip -Algorithm SHA256).Hash.ToLowerInvariant()
+          "$hash  MeetingRecorder-win-x64.zip" | Set-Content SHA256SUMS.txt -Encoding ascii
+      - name: Publish GitHub release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $notes = @'
+          First public release for Windows 10/11 x64.
+
+          Download and extract MeetingRecorder-win-x64.zip, then run MeetingRecorder.exe. No separate .NET installation is required. The Croatian speech model downloads on first run (about 837 MB); transcription then runs locally.
+
+          Includes microphone/system audio capture, Croatian transcription, timestamped notes, pause/resume and meeting continuations. OpenCode integration is experimental and disabled by default.
+
+          The app is unsigned; Windows SmartScreen may display a warning. Review transcripts for errors and sensitive information. Long-duration recording, device switching, Teams reconnect and clean-machine compatibility are not fully validated. Obtain participants' consent before recording.
+          '@
+          gh release create $env:GITHUB_REF_NAME MeetingRecorder-win-x64.zip SHA256SUMS.txt --verify-tag --title "Meeting Recorder $env:GITHUB_REF_NAME" --notes $notes
+          if ($LASTEXITCODE -ne 0) { throw 'Release publication failed.' }
